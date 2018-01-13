@@ -2,7 +2,8 @@
 #define CANLAMPE_H
 
 #include <string>
-#include "Lampe.h"
+
+#include <VS/Lampe.h>
 
 class CanLampe : public Lampe 
 {

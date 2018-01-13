@@ -3,16 +3,16 @@
 #include <Windows.h>
 
 
-#include <Sensor.h>
-#include <ListenerSingleRawPointer.h>
 #include <Kreuzung/Ampel.h>
 
 #include "VerkehrssteuerungsFactory.h"
 #include "Verkehrssteuerung.h"
 
 #include <Kreuzung/Kreuzung.h>
+#include <Sensor/ListenerSingleRawPointer.h>
+#include <Sensor/Sensor.h>
 
-#include "Lampe.h"
+#include <VS/Lampe.h>
 #include "KreuzungSensorAdapter.h"
 
 using namespace std;

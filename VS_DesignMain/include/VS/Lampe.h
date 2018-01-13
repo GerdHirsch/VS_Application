@@ -17,5 +17,6 @@ public:
 
     virtual ~Lampe() = 0;
 };
-//Lampe::~Lampe(){}
+inline
+Lampe::~Lampe(){}
 #endif //LAMPE_H

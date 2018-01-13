@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include "Lampe.h"
+#include <VS/Lampe.h>
 
 class IPLampe : public Lampe {
 public:

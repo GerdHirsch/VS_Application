@@ -1,14 +1,14 @@
 
 #include "VerkehrssteuerungsFactory.h"
-#include <Sensor.h>
-#include <ListenerSingleRawPointer.h>
 #include "StateAmpel.h"
 
-#include <Sensor.h>
+#include <Sensor/Sensor.h>
+#include <Sensor/ListenerSingleRawPointer.h>
+
 #include <Kreuzung/Ampel.h>
 #include <Kreuzung/Kreuzung.h>
 
-#include "Lampe.h"
+#include <VS/Lampe.h>
 
 //=====================================================================
 // Abstract Factory

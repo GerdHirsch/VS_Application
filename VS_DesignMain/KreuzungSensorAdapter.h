@@ -2,8 +2,8 @@
 #define KREUZUNGSENSORADAPTER_H
 
 #include <Kreuzung/Kreuzung.h>
+#include <Sensor/SensorListener.h>
 #include <iostream>
-#include <SensorListener.h>
 
 using SensorHersteller::SensorListener;
 
