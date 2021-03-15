@@ -25,11 +25,11 @@ public:
     StateAmpel(const std::string& name, Lampe& rot, Lampe& gelb, Lampe& gruen);
     virtual ~StateAmpel(){ std::cout << "StateAmpel::~StateAmpel()" << std::endl;}
 
-    virtual void aus();
+    virtual void aus() override;
 
-    virtual void warne();
+    virtual void warne() override;
 
-    virtual void umschalten();
+    virtual void umschalten() override;
 
 	const std::string& getName() { return name; }
 private:

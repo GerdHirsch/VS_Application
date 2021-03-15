@@ -4,7 +4,7 @@
 //#include <IllegalStateException.h>
 #include "StateAmpel.h"
 #include "AmpelState.h"
-#include "StateFactory.h"
+//#include "StateFactory.h"
 
 using namespace std;
 
